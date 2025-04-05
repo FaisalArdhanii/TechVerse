@@ -1,0 +1,79 @@
+body {
+    scroll-behavior: smooth;
+    /* Smooth scroll */
+}
+
+.btn-primary {
+    background-color: #4f46e5;
+    /* Biru */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #4338ca;
+    /* Biru lebih gelap */
+}
+
+.btn-secondary {
+    background-color: #e5e7eb;
+    /* Abu-abu soft */
+    color: #4f46e5;
+    /* Biru */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: #d1d5db;
+    /* Abu-abu lebih gelap */
+}
+
+.product-card {
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: scale(1.05)
+}
+
+.testimonial {
+    transition: transform 0.3s;
+}
+
+.testimonial:hover {
+    transform: scale(1.05);
+}
+
+.faq-item {
+    cursor: pointer;
+}
+
+.faq-item:hover {
+    background-color: #e5e7eb;
+    /* Warna latar belakang saat hover */
+}
+
+.container {
+    max-width: 1200px;
+    /* Lebar maksimum kontainer */
+    margin: 0 auto;
+    /* Pusatkan kontainer */
+    padding: 0 20px;
+    /* Padding horizontal */
+}
+
+h2 {
+    color: #4f46e5;
+    /* Warna judul */
+}
+
+footer {
+    background-color: #1f2937;
+    /* Warna latar belakang footer */
+}
